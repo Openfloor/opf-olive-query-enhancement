@@ -23,8 +23,12 @@ curl http://localhost:8080/api/v1/promotions
 
 ## 문서
 
+### Part 1. Backend 이관 및 쿼리 튜닝
 - [SQL 최적화 보고서](docs/SQL_OPTIMIZATION.md) - AS-IS vs TO-BE 분석
 - [테스트 가이드](docs/TEST_GUIDE.md) - API 사용법 및 성능 테스트
+
+### Part 2. 운영 및 트러블슈팅 시나리오
+- [트러블슈팅 가이드](docs/TROUBLESHOOTING.md) - DB Lock 해소, 캐시 문제 대응
 
 ## 기술 스택
 
